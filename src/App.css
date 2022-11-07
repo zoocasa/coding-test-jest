@@ -1,0 +1,41 @@
+.App {
+  margin: 20px;
+  max-width: 1200px;
+}
+
+.content {
+  display: flex;
+  margin-top: 10px;
+}
+
+.listing-image {
+  width: 100%;
+}
+
+.selected .listing-image {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.listings {
+  width: 300px;
+}
+
+.listings ul {
+  padding: 0;
+  margin: 0;
+}
+
+.listings li {
+  list-style: none;
+}
+
+.listing-details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 20px;
+}
